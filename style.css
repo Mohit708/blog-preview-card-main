@@ -1,0 +1,79 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7df1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Card container */
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+/* Image section */
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Content section */
+.card-content {
+  padding: 20px;
+}
+
+/* Tag */
+.card-content .tag {
+  display: inline-block;
+  background-color: #f7df1e;
+  color: #000;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+/* Title */
+.card-content h2 {
+  color: #f7df1e;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/* Description */
+.card-content p {
+  color: #333;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+
+/* Author section */
+.card-author {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card-author img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+@media (max-width: 480px) {
+  .card-author span {
+    font-size: 12px;
+    color: #333;
+  }
+}
